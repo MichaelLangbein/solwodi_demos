@@ -1,0 +1,265 @@
+.eventclndr-tab {
+    max-width: 600px;
+}
+
+.eventclndr-tab .clndr .clndr-controls {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    font-size: 90%;
+    background: #555555;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.eventclndr-tab .clndr .clndr-controls .month {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.eventclndr-tab .clndr .clndr-controls .clndr-control-button {
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+
+.eventclndr-tab .clndr .clndr-controls .clndr-control-button.rightalign {
+    text-align: center;
+    width: 34%;
+}
+
+.clndr-previous-button, .clndr-next-button {
+    font-family: Arial !important;
+}
+
+.eventclndr-tab .clndr .clndr-controls .clndr-control-button .clndr-next-button {
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Chrome/Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
+}
+
+.eventclndr-tab .clndr .clndr-controls .clndr-control-button .clndr-next-button:hover {
+    /*background: #ddd;*/
+}
+
+.eventclndr-tab .clndr .clndr-controls .clndr-control-button .clndr-next-button.inactive {
+    opacity: 0.5;
+}
+
+.eventclndr-tab .clndr .clndr-controls .clndr-control-button .clndr-next-button.inactive:hover {
+    background: none;
+    cursor: default;
+}
+
+.eventclndr-tab .clndr .clndr-controls .clndr-control-button .clndr-previous-button {
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Chrome/Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
+}
+
+.eventclndr-tab .clndr .clndr-controls .clndr-control-button .clndr-previous-button:hover {
+    /*background: #ddd;*/
+}
+
+.eventclndr-tab .clndr .clndr-controls .clndr-control-button .clndr-previous-button.inactive {
+    opacity: 0.5;
+}
+
+.eventclndr-tab .clndr .clndr-controls .clndr-control-button .clndr-previous-button.inactive:hover {
+    background: none;
+    cursor: default;
+}
+
+.eventclndr-tab .clndr .clndr-table {
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 1px;
+    background: #eeeeee;
+}
+
+.eventclndr-tab .clndr .clndr-table .header-days {
+    height: 30px;
+    font-size: 10px;
+    /*background: #888;*/
+}
+
+.eventclndr-tab .clndr .clndr-table .header-days .header-day {
+    vertical-align: middle;
+    text-align: center;
+    /*border-left: 1px solid #000000;*/
+    /*border-top: 1px solid #000000;*/
+    color: #000000;
+    font-weight: bold;
+}
+
+.eventclndr-tab .clndr .clndr-table .header-days .header-day:last-child {
+    /*border-right: 1px solid #000000;*/
+}
+
+.eventclndr-tab .clndr .clndr-table tr {
+    height: 25px;
+}
+
+.eventclndr-tab .clndr .clndr-table tr td {
+    vertical-align: middle;
+}
+
+.eventclndr-tab .clndr .clndr-table tr .day {
+    /*border-left: 1px solid #000000;*/
+    /*border-top: 1px solid #000000;*/
+    width: 100%;
+    height: inherit;
+    background: #ffffff;
+    cursor: default;
+}
+
+.eventclndr-tab .clndr .clndr-table tr .day:hover {
+    /*background: #eee;*/
+}
+
+.eventclndr-tab .clndr .clndr-table tr .day.today,
+.eventclndr-tab .clndr .clndr-table tr .day.my-today {
+    background: #cccccc;
+
+    font-weight: bold;
+    /*border-top: 1px solid #000000;*/
+}
+
+.eventclndr-tab .clndr .clndr-table tr .day.today:hover,
+.eventclndr-tab .clndr .clndr-table tr .day.my-today:hover {
+    background-color: #cccccc !important;
+}
+
+.eventclndr-tab .clndr .clndr-table tr .day.today.event,
+.eventclndr-tab .clndr .clndr-table tr .day.my-today.event {
+    /*background: #a7dbc1;*/
+}
+
+/*, .last-month,.next-month*/
+.eventclndr-tab .clndr .clndr-table tr .day.event:not(.inactive):not(.last-month):not(.next-month),
+.eventclndr-tab .clndr .clndr-table tr .day.my-event:not(.inactive):not(.last-month):not(.next-month) {
+    /*background: #ddd;*/
+    cursor: pointer;
+    background-image: url('calender3.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.eventclndr-tab .clndr .clndr-table tr .day.event:hover:not(.inactive):not(.last-month):not(.next-month),
+.eventclndr-tab .clndr .clndr-table tr .day.my-event:hover:not(.inactive):not(.last-month):not(.next-month) {
+    background: #dddddd url("calender3.png") no-repeat scroll right top;
+}
+
+/*.eventclndr-tab .clndr .clndr-table tr .day.inactive,*/
+/*.eventclndr-tab .clndr .clndr-table tr .day.my-inactive {*/
+/*background: #ddd;*/
+/*opacity: 0.5;*/
+/*}*/
+/*.eventclndr-tab .clndr .clndr-table tr .day:last-child {*/
+/*border-right: 1px solid #000000;*/
+/*}*/
+.eventclndr-tab .clndr .clndr-table tr .day .day-contents {
+    box-sizing: border-box;
+    /*padding: 8px;*/
+    /*font-size: 12px;*/
+    text-align: center;
+}
+
+.eventclndr-tab .clndr .clndr-table tr .empty,
+.eventclndr-tab .clndr .clndr-table tr .adjacent-month,
+.eventclndr-tab .clndr .clndr-table tr .my-empty,
+.eventclndr-tab .clndr .clndr-table tr .my-adjacent-month {
+    /*border-left: 1px solid #000000;*/
+    /*border-top: 1px solid #000000;*/
+    width: 100%;
+    height: inherit;
+    background: #eeeeee;
+}
+
+.eventclndr-tab .clndr .clndr-table tr .empty:hover,
+.eventclndr-tab .clndr .clndr-table tr .adjacent-month:hover,
+.eventclndr-tab .clndr .clndr-table tr .my-empty:hover,
+.eventclndr-tab .clndr .clndr-table tr .my-adjacent-month:hover {
+    /*background: #ddd;*/
+}
+
+.eventclndr-tab .clndr .clndr-table tr .empty:last-child,
+.eventclndr-tab .clndr .clndr-table tr .adjacent-month:last-child,
+.eventclndr-tab .clndr .clndr-table tr .my-empty:last-child,
+.eventclndr-tab .clndr .clndr-table tr .my-adjacent-month:last-child {
+    /*border-right: 1px solid #000000;*/
+}
+
+.eventclndr-tab .clndr .clndr-table tr:last-child .day,
+.eventclndr-tab .clndr .clndr-table tr:last-child .my-day {
+    /*border-bottom: 1px solid #000000;*/
+}
+
+.eventclndr-tab .clndr .clndr-table tr:last-child .empty,
+.eventclndr-tab .clndr .clndr-table tr:last-child .my-empty {
+    border-bottom: 1px solid #000000;
+}
+
+.clndr-next-button,
+.clndr-previous-button,
+.clndr-next-year-button,
+.clndr-previous-year-button {
+    -webkit-user-select: none;
+    /* Chrome/Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
+}
+
+.clndr-next-button.inactive,
+.clndr-previous-button.inactive,
+.clndr-next-year-button.inactive,
+.clndr-previous-year-button.inactive {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.eventclndr-tab .next-month,
+.eventclndr-tab .last-month {
+    opacity: 0.3;
+}
+
+.day-contents {
+    color: #555555;
+}
+
+.calendar-dow-6 .day-contents {
+    color: #a80000 !important;
+}
+
+abbr.clndr-abbr {
+    text-decoration: none;
+    border: none;
+    cursor: help;
+}
+
+
+html .clndr-previous-button::after {
+    content: "\02039";
+}
+html .clndr-next-button::after {
+    content: "\0203A";
+}
+html .clndr-previous-button::after, html .clndr-next-button::after {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    cursor: pointer;
+}
+html .clndr-controls .inactive::after {
+    cursor: default;
+}

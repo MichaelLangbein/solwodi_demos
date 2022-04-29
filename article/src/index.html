@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 
+        Fonts
+        - Header: Georgia/Tinos
+        - Body: Arial/Roboto
+        - <= serious, professional, dependable, not too extreme
+     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Tinos&display=swap" rel="stylesheet">
+
+    <!-- slider -->
+    <link rel="stylesheet" href="../node_modules/@splidejs/splide/dist/css/splide.min.css">
+
+    <link rel="stylesheet" href="./meyer.css">
+    <style>
+        :root {            
+            --color1: rgb(255, 179, 135);
+            --color2: rgb(255, 152, 94);	
+            --color3: rgb(238, 121, 55);	
+            --color4: rgb(208, 87, 18);	
+            --color5: rgb(164, 62, 4);
+            /* --color1: rgb(255,125,111);
+            --color2: rgb(233,116,104);
+            --color3: rgb(183,92,82);
+            --color4: rgb(126,66,60);
+            --color5: rgb(83,42,38); */
+            /* --color1: rgb(255, 222, 156);
+            --color2: rgb(247, 201, 110);
+            --color3: rgb(216, 167, 68);
+            --color4: rgb(186, 136, 34);
+            --color5: rgb(148, 103, 11); */
+            --gray1: rgb(255, 255, 255);
+            --gray2: rgb(230, 230, 230);
+            --gray3: rgb(200, 200, 200);
+            --gray4: rgb(150, 150, 150);
+            --gray5: rgb(50, 50, 50);
+        }
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        /*header*/
+        .header {
+            width: 100%;
+            height: 10vh;
+            background-color: var(--gray4);
+        }
+
+
+        /* basics */
+        .content {
+            margin: 2rem clamp(3rem, 25%, 40rem) 0 clamp(3rem, 25%, 40rem);
+        }
+
+        h1, h2, h3, h4, h5 {
+            font-family: 'Tinos', serif;
+            margin: 1rem;
+            font-size: x-large;
+        }
+
+        h1 {
+            font-weight: 900;
+            font-size: xx-large;
+        }
+        h2 {
+            font-weight: 800;
+            font-size: x-large;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        p, text, tspan {
+            font-family: 'Roboto', sans-serif;
+            font-size: small;
+            /* margin: 0rem 3rem 0rem 3rem; */
+        }
+
+
+        /* sections */
+        .section {
+            width: 100%;
+            margin: 5rem 0 5rem 0;
+        }
+
+        .section>.sectionRow>.leftImage {
+            width: 90%;
+        }
+        .section>.sectionRow>.rightText {
+            margin-left: 3rem;
+        }
+
+        @media (min-width: 480px) {
+            .sectionRow {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+            }
+
+            .sectionRow>.leftImage {
+                width: 33%;
+                flex: 0 1 33%;
+            }
+
+            .sectionRow>.rightText {
+                flex: 0 1 66%;
+            }
+        }
+
+
+        .splide__slide {
+            width: 100%;
+            padding: 0 10% 0 10%;
+        }
+        .section .splide__pagination {
+            position: initial;
+        }
+
+        /* CTA */
+        .cta {
+            background-image: linear-gradient(var(--gray1) 50%, var(--gray2) 75%, var(--gray3));
+        }
+
+        .actionButton {
+            width: 50%;
+            height: 20vh;
+            border-radius: .5rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            background-color: var(--color3);
+            border: none;
+        }
+
+        .actionButton:hover {
+            background-color: var(--color2);
+        }
+
+        .cta>.sectionRow>p {
+            margin: 1rem;
+        }
+
+        .cta>.sectionRow>.actionButton {
+            margin: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1 style="color: white; font-family: 'Roboto'; font-weight:900; margin: 0; padding: 1rem;">SOLWODI DEMO</h1>
+    </div>
+    <div class="content">
+
+        <h1>Migration data demo visualization</h1>
+
+        <div class="section">
+            <div class="sectionRow">
+                <p>This is a demo. It is intended to showcase what an article with a few simple visualizations might look like.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Simple content with graphics</h2>
+            <div class="sectionRow">
+                <img src="../assets/migration.svg" alt="migration image" class="leftImage">
+                <div class="rightText">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At sequi corrupti, neque ipsam cumque totam blanditiis perferendis delectus optio aspernatur soluta voluptas iure alias quod cum exercitationem aperiam, hic in adipisci laboriosam omnis atque ex. Unde labore provident enim quas accusantium repudiandae nihil voluptas dolores ea tempore, delectus vero neque.</p>
+                </div>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium repudiandae reprehenderit quae, iure totam ut, beatae dicta atque adipisci tempore impedit accusantium ipsam est dolorum velit debitis blanditiis aperiam animi consequatur, enim mollitia. Sit saepe temporibus eum ullam magni cupiditate!</p>
+
+
+        <div class="section">
+            <h2>Animated maps</h2>
+
+            <div class="sectionRow" id="canvasContainer" style="width:100%; height: 40vh;">
+                <canvas id="canvas"></canvas>
+            </div>
+            <div class="legend" id="legendContainer"></div>
+
+            <div class="sectionRow">
+                <div class="splide">
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            <div class="splide__slide">
+                                <h3>Header 1</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam iusto consequuntur
+                                    dicta dolorem numquam sequi autem, delectus quam labore nostrum dolorum praesentium
+                                    tenetur eum architecto repellat dolores, corrupti beatae qui.</p>
+                            </div>
+                            <div class="splide__slide">
+                                <h3>Header 2</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, molestias.</p>
+                            </div>
+                            <div class="splide__slide">
+                                <h3>Header 3</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsa facilis ullam
+                                    dolores explicabo fugit repellendus tempore veritatis perspiciatis beatae?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="section">
+            <h2>Animated graphics</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eligendi explicabo commodi nobis
+                reprehenderit unde, ut labore aliquid ipsam fugiat incidunt velit? Dignissimos explicabo nobis placeat
+                nesciunt, voluptatibus qui harum quidem sequi.</p>
+            <div style="width: 100%; padding: 3rem 0 3rem 0;">
+                <div style="width: 80%; height: 40vh; margin-left: 10%;" id="d3container">
+                </div>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum mollitia nulla eveniet quidem necessitatibus corporis deserunt iusto magni consectetur asperiores iste nihil tempore provident dolorem harum expedita minima nam dolore accusamus, inventore quia. Non, assumenda totam dolor necessitatibus adipisci beatae eos blanditiis harum error velit sint temporibus ratione. Tenetur, ratione!</p>
+        </div>
+
+        <div class="section cta">
+            <h2>Call to action</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere laborum aliquam aut hic pariatur veniam, voluptatum est nemo iste. Repellendus beatae sed eum fuga culpa voluptates quisquam commodi omnis eaque.</p>
+            <div class="sectionRow">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nobis corrupti modi in debitis
+                    eaque sint ducimus! Eaque, in sed.</p>
+                <button class="actionButton">ACTION</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <h4 style="font-size:small">Footnotes</h4>
+        <p style="font-size: smaller;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint est expedita dicta
+            sit ex sequi! Laborum debitis necessitatibus eius id fuga magni porro optio ducimus doloremque. Quaerat
+            voluptatibus veniam, aliquid doloribus neque, non labore aspernatur et modi, libero saepe. Voluptatem nam ex
+            quis animi corrupti labore dolores repudiandae a eveniet.</p>
+    </div>
+</body>
+<script type="module" src="map.ts"></script>
+<script type="module" src="d3.ts"></script>
+
+</html>
