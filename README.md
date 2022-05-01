@@ -1,4 +1,5 @@
 # Solwodi
+Repository zum Teilen von Demos mit SOLWODI
 
 ## Allgemein
 - Moderner
