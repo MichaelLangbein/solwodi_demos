@@ -1,0 +1,36 @@
+User-agent: *
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /cgi-bin/
+
+User-agent: Mediapartners-Google
+Disallow: /cgi-bin/
+
+User-agent: Googlebot-Mobile
+Disallow: /cgi-bin/
+
+User-agent: Googlebot-Image
+Disallow: /cgi-bin/
+
+User-agent: Adsbot-Google
+Disallow: /cgi-bin/
+
+User-agent: twiceler
+Disallow: /cgi-bin/
+
+User-agent: MSNBot
+Disallow: /cgi-bin/
+
+User-agent: Slurp
+Disallow: /cgi-bin/
+
+User-agent: Teoma
+Disallow: /cgi-bin/
+
+User-agent: yahoo-mmcrawler
+Disallow: /cgi-bin/
+
+User-agent: psbot
+Disallow: /cgi-bin/
+
