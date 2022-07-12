@@ -3,28 +3,8 @@ import bundeslaender from '../assets/bundeslaender.geo.json';
 import fbs from '../assets/fbs.geo.json';
 
 
-
+const containerDiv = document.getElementById('mapContainer') as HTMLDivElement;
 const mapDiv = document.getElementById('map') as HTMLDivElement;
-const cardContainer = document.getElementById('cards') as HTMLDivElement;
-
-for (const fsf of fbs.features) {
-    const element = document.createElement('div');
-        element.classList.add('card');
-        element.dataset.cardid = fsf.id + '';
-    const header = document.createElement('div');
-        header.classList.add('header');
-        header.innerHTML = fsf.properties.title;
-    const body = document.createElement('div');
-        body.classList.add('content');
-        body.classList.add('content-hidden');
-        body.innerHTML = fsf.properties.innerHTML;
-    element.appendChild(header);
-    element.appendChild(body);
-    cardContainer.appendChild(element);
-}
-
-const cards = document.getElementsByClassName('card') as HTMLCollectionOf<HTMLDivElement>;
-
 
 const colorActive = '#EE7937';
 const colorInactive = '#EA6316';
@@ -32,7 +12,7 @@ const colorInactiveOutline = '#c95416';
 const grayLight = '#e0e0e0';
 const grayDark = '#969696';
 
-const width = mapDiv.clientWidth / 2;
+const width = mapDiv.clientWidth;
 const height = mapDiv.clientHeight;
 
 const projection = geoMercator();
@@ -92,35 +72,10 @@ cities.on('click', (evt, feature) => {
     focusOn(feature.id);
 });
 
-for (const card of cards) {
-    card.addEventListener('click', (evt) => {
-        const id = +(card.dataset.cardid);
-        focusOn(id);
-    })
-}
 
-
-let focussedId: number | null = null;
 function focusOn(id: number) {
-    if (id < cards.length) {
-
-        // step 1: focus on card
-        if (focussedId !== null) {
-            const lastCard = cards[focussedId];
-            lastCard.getElementsByClassName('content')[0].classList.toggle('content-hidden');
-        }
-        const newCard = cards[id];
-        newCard.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
-        newCard.getElementsByClassName('content')[0].classList.toggle('content-hidden');
-
-        // step 2: focus on map
         cities
             .transition().ease(easeBounce)
             .attr('fill', d => d.id === id ? colorActive : colorInactive)
             .attr('r',    d => d.id === id ? 14 : 7);
-
-        // step 3:
-        focussedId = id;
-
-    }
 }

@@ -1,0 +1,309 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": 0,
+            "properties": {
+                "title": "",
+                "innerHTML": "<span style='color:#e67e22'><strong>Sie sind in einer schwierigen Lebenssituation, die für Sie alleine nicht lösbar ist? </strong></span><p class='tiny_p'><span style='color:#e67e22'><strong>Wir unterstützen Sie bei folgenden Problemen:</strong></span></p><ul><li><p class='tiny_p'>Menschenhandel&nbsp;</p></li><li><p class='tiny_p'>Sexuelle Ausbeutung und Prostitution</p></li><li><p class='tiny_p'>Zwangsverheiratung und Bedrohung durch Ehrenmord</p></li><li><p class='tiny_p'>Probleme&nbsp;in Ehe und Partnerschaft</p></li><li><p class='tiny_p'>Sonstige Gewalt- und in Ausbeutungssituationen</p></li><li>Juristischen Probleme</li></ul><span style='color:#e67e22'><strong>Klicken Sie auf die Punkte in der Karte, um mehr zu erfahren.</strong></span>",
+                "href": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 1,
+            "properties": {
+                "title": "Aachen",
+                "innerHTML": "<span style='color:#e67e22'><strong>Spezielle Angebote: </strong></span><ul><li>Psychosozialer Begleitung</li><li>Aufsuchende Hilfen, Vernetzungsarbeit</li><li>Vermittlung von medizinischer und juristischer Hilfe</li><li>Unterstützung bei Rückkehr ins Heimatland</li><li>Sichere Unterbringung in einem Schutz- oder Frauenhaus</li><li>Unterstützung bei der Wohnungssuche, Behördengängen und Antragstellungen</li><li>Vermittlung in Alphabetisierungs- und Deutschkurse und in weitere qualifizierende Maßnahmen</li></ul>",
+                "href": "https://www.solwodi.de/seite/353240/aachen.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.08557107716097,
+                    50.771982770218095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "properties": {
+                "title": "Aalen",
+                "innerHTML": "<div class=\"col-xs-12 col-sm-4 col-md-4 tp-float-left\"><div class=\"tp-image-wrapper\"><div style=\"width: 371.1px; height: 230.133px; position: relative; display: block;\" class=\"fancyfix\"> <a rel=\"template_page\" href=\"https://daten.verwaltungsportal.de/dateien//mypage/8/2/6/9/1/9/Solwodi_BW_1.jpg?v=1621231815\" title=\"Marietta Hageney, Leiterin der SOLWODI Fachstelle Aachen, im Gespräch mit der Wissenschaftlerin Julia Wege und Kriminalhauptkommissar a.D. Manfred Paulus \"><span style=\"background: rgb(255, 255, 255) url(&quot;https://layout.verwaltungsportal.de/global/interaktiv/buttons/overlay_search_magifier.png&quot;) no-repeat scroll center center; height: 230.133px; position: absolute; width: 371.1px; z-index: 10; opacity: 0;\" id=\"hoverOverlay31350\" class=\"hoverOverlayFix\"></span><img src=\"https://daten.verwaltungsportal.de/dateien//mypage/8/2/6/9/1/9/Solwodi_BW_1.jpg?v=1621231815\" class=\"template-img  \" alt=\"Marietta Hageney, Leiterin der SOLWODI Fachstelle Aachen, im Gespräch mit der Wissenschaftlerin Julia Wege und Kriminalhauptkommissar a.D. Manfred Paulus\" title=\"Marietta Hageney, Leiterin der SOLWODI Fachstelle Aachen, im Gespräch mit der Wissenschaftlerin Julia Wege und Kriminalhauptkommissar a.D. Manfred Paulus\" width=\"371.1\" height=\"230.133\"></a></div></div></div><p class=\"tiny_p\"><span style=\"color:#e67e22\"><strong>Arbeitsschwerpunkte:</strong></span></p><ul><li>Ausstieg aus der Prostitution</li><li>Opfer von Menschenhandel – Zwangsprostitution, Arbeitsausbeutung, Bettelei</li><li>Von Zwangsverheiratung bedrohte oder betroffene Frauen&nbsp;</li><li>Geflüchtete Frauen im Umfeld von „Ehre und Gewalt“</li><li>Ausländische Frauen mit Gewalterfahrung, Betroffene von Ausbeutung und Missbrauch</li><li>Frauen / Mädchen, die von Genitalverstümmelung bedroht oder betroffen sind</li><li>Frauen mit sonstigen ausländerrechtlichen, sozialrechtlichen oder persönlichen Problemen</li></ul>",
+                "href": "https://www.solwodi.de/seite/385080/aalen.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.09378187413671,
+                    48.83513294194341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "properties": {
+                "title": "Augsburg",
+                "innerHTML": "<span style='color:#e67e22'><strong>Arbeitsschwerpunkte:</strong></span><ul><li>Opfer von Menschenhandel und&nbsp;Zwangsprostitution</li><li>Frauen in der Prostitution (aufsuchende Milieusozialarbeit)</li><li>Von Zwangsverheiratung bedrohte oder betroffene Frauen</li><li>Von Ehrenmord bedrohte Frauen und Frauen im Umfeld von „Ehre und Gewalt“</li><li>Ausländische Frauen mit (häuslicher) Gewalterfahrung, Ausbeutung und Missbrauch</li><li>Frauen/ Mädchen, die von Genitalverstümmelung bedroht oder betroffen sind</li><li>Migrantinnen mit sonstigen komplexen ausländerrechtlichen, sozialrechtlichen oder persönlichen Problemen</li></ul>",
+                "href": "https://www.solwodi.de/seite/353241/augsburg.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.899247130366616,
+                    48.36775932091013
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "properties": {
+                "title": "Bad Kissingen",
+                "innerHTML": "<span style='color:#e67e22'><strong>Arbeitsschwerpunkte:</strong></span><ul><li style='text-align: justify;'>Opfer von Menschenhandel – Zwangsprostitution, Arbeitsausbeutung, Bettelei…</li><li style='text-align: justify;'>Von Zwangsverheiratung bedrohte oder betroffene Frauen&nbsp;</li><li style='text-align: justify;'>Frauen aus dem Flüchtlingsbereich mit der o.g. Problematik bzw. im Umfeld von „Ehre und Gewalt“</li><li style='text-align: justify;'>Ausländische Frauen mit Gewalterfahrung, Betroffene von Ausbeutung und Missbrauch, auch im häuslichen Bereich bzw. mit dt. Ehepartner, v. a. wenn noch kein Anspruch auf einen eigenständigen Aufenthaltstitel besteht (3 Jahre Ehebestandszeit)</li><li style='text-align: justify;'>Frauen / Mädchen, die von Genitalverstümmelung bedroht oder betroffen sind</li><li style='text-align: justify;'>Frauen mit sonstigen ausländerrechtlichen, sozialrechtlichen oder persönlichen Problemen</li></ul>",
+                "href": "https://www.solwodi.de/seite/353242/bad-kissingen.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.072519919855646,
+                    50.196591959316095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "properties": {
+                "title": "Berlin",
+                "innerHTML": "<span style='color:#e67e22'><strong>Spezielle Angebote</strong></span><p class='tiny_p'>siehe <strong><a href='http://www.solwodi-berlin.de/'>www.solwodi-berlin.de</a></strong></p>",
+                "href": "https://www.solwodi.de/seite/353243/berlin.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.390392918835712,
+                    52.50709450264937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "properties": {
+                "title": "Bonn",
+                "innerHTML": "<span style='color:#e67e22'><strong>Spezielle Angebote</strong></span><p class='tiny_p'>Kontaktaufnahme via WhatsApp möglich,</p><p class='tiny_p'>Unterstützung beim Ausstieg aus der Prostitution, bei Interesse Loverboy Präventionsprojekt an Schulen und Vorträge zu unseren Arbeitsfeldern</p><p class='tiny_p'><span style='color:#e67e22'><strong>Sprachen:</strong></span> Deutsch, Englisch, Spanisch</p><p class='tiny_p'><strong><span style='color:#e67e22'>Streetwork: </span></strong>ja</p>",
+                "href": "https://www.solwodi.de/seite/353244/bonn.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.10498781609846,
+                    50.721688928429664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "properties": {
+                "title": "Boppard",
+                "innerHTML": "<p class='tiny_p'><strong><span style='color:#e67e22'>Wie wir DIR Helfen</span></strong></p><p class='tiny_p'>Das an die Beratungsstelle Boppard angegliederte Schutzhaus bietet eine sichere und anonyme Unterkunft für eine vorübergehende Aufenthaltsdauer. Unabhängig von deiner Herkunft oder deinem Aufenthaltstitel kannst du dich an uns wenden. Wir möchten dich dabei unterstützen, so schnell wie möglich Hilfe in jeder Hinsicht zu erhalten und selbstbestimmt leben zu können. Unser Ziel ist es, dass du selbstständig ein Leben ohne Gewalt hast. Du hast jederzeit eine Ansprechpartnerin und bist bei uns an einem sicheren Ort.</p>",
+                "href": "https://www.solwodi.de/seite/368650/boppard.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.580906075504742,
+                    50.22976589071227
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "properties": {
+                "title": "Braunschweig",
+                "innerHTML": "<p class='tiny_p'><span style='color:#e67e22'><strong>spezielle Angebote: </strong></span></p><p class='tiny_p'>Begleitung von Ausstieg aus der Prostitution</p><p class='tiny_p'>SOLWODI-Arbeitskreise Braunschweig und Helmstedt</p><p class='tiny_p'>Sprachen: deutsch, englisch</p><p class='tiny_p'>Streetwork: nein</p>",
+                "href": "https://www.solwodi.de/seite/353245/braunschweig.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.519617437422808,
+                    52.2632121986639
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "properties": {
+                "title": "Duisburg",
+                "innerHTML": "<p class='tiny_p' style='text-align:justify'><br><strong>Schwerpunkte:</strong></p><ul><li style='text-align: justify;'>Beratung, Begleitung, Betreuung von Opfern von Menschenhandel zum Zwecke der sexuellen Ausbeutung, Opfer von Zwangsprostitution, Opfer von (sexueller) Gewalt auf der Flucht, (drohender) Zwangsverheiratung, Zwangsehe, Gewalt in Partnerschaft oder Ehe, Heiratsmigration oder bei Illegalität.</li><li style='text-align: justify;'>Beratung, Begleitung, Betreuung von Minderjährigen mit den o.g. Problematiken</li></ul>",
+                "href": "https://www.solwodi.de/seite/353246/duisburg.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.773223826509143,
+                    51.43786827071241
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "properties": {
+                "title": "Fulda",
+                "innerHTML": "<p class='tiny_p'><span style='color:#e67e22'><strong>Arbeitsschwerpunkte:</strong></span></p><ul><li>Von Zwangsverheiratung bedrohte oder betroffene Frauen&nbsp;</li><li>Geflüchtete/migrierte Frauen die von Ehrgewalt bedroht oder betroffen sind.</li><li>Ausländische Frauen mit (häuslicher) Gewalterfahrung, Ausbeutung und Missbrauch</li><li>Frauen / Mädchen, die von Genitalverstümmelung bedroht oder betroffen sind</li><li>Sonstigen ausländerrechtlichen, sozialrechtlichen, familienrechtlichen oder persönliche Probleme</li><li>Notzimmer für eine Frau die von Ehrgewalt oder Zwangsheirat bedroht/betroffen ist.</li><li>Vermittlung einer sicherer Unterbringung</li><li>Begleitung&nbsp;durch den Trennungs- und Scheidungsprozess</li><li>Präventionsarbeit (Workshops) an Schulen, in GU`s, Sprachkursen etc.</li></ul>",
+                "href": "https://www.solwodi.de/seite/353247/fulda.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.687614153514943,
+                    50.548651427188965
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "properties": {
+                "title": "Koblenz",
+                "innerHTML": "<span style='color:#e67e22'><strong>Spezielle Angebote: </strong></span><p class='tiny_p'>Jugendhilfeplätze: Betreuungsangebot für weibliche Jugendliche ab 16 Jahren nach § 42 SGB VIII Inobhutnahme von Kindern und Jugendlichen i.V.m. § 8a SGB VIII und § 34 SGB VIII Heimerziehung. Seit Oktober 2011 besitzen wir die Betriebserlaubnis zur Ausführung des Kinder- und Jugendhilfegesetzes Rheinland-Pfalz in unserer Einrichtung.</p><p class='tiny_p'>Jugendhilfeplätze: Betreuungsangebot für weibliche Jugendliche ab 16 Jahren nach § 42 SGB VIII Inobhutnahme von Kindern und Jugendlichen i.V.m. § 8a SGB VIII und § 34 SGB VIII Heimerziehung. Seit Oktober 2011 besitzen wir die Betriebserlaubnis zur Ausführung des Kinder- und Jugendhilfegesetzes Rheinland-Pfalz in unserer Einrichtung.</p><p class='tiny_p'>Streetwork: nein</p>",
+                "href": "https://www.solwodi.de/seite/353248/koblenz.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.589604146260594,
+                    50.35917712195315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "properties": {
+                "title": "Ludwigshafen",
+                "innerHTML": "<p class='tiny_p'><span style='color:#e67e22'><strong>Informationen für Frauen*</strong></span></p><p class='tiny_p'>Möchte deine Familie, dass du jemanden heiratest, obwohl du das nicht willst? Wurde dir mit dem Tod gedroht? Darfst du nicht selbst über dein Leben bestimmen? Übt dein Partner, deine Partnerin oder deine Familie übt psychische, emotionale oder körperliche Gewalt aus? Kommst du aus dem Ausland und weißt nicht, wie alles in Deutschland funktioniert und wie du deinen Aufenthalt sichern kannst? Und/ oder hast du auf der Flucht oder im Herkunftsland Dinge erlebt, über die du sprechen möchtest?</p>",
+                "href": "https://www.solwodi.de/seite/353249/ludwigshafen.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.35976132237345,
+                    49.483805290067785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "properties": {
+                "title": "Mainz",
+                "innerHTML": "<p class='tiny_p' style='text-align:center'><br>Wenn Sie&nbsp;Fragen haben, jemand zum Reden brauchen, nicht weiter wissen, melden Sie sich bitte unter:<br>0171 9456114 oder 0152 07599268<br><script>email('beratung-rlp','solwodi','de','');</script><a href='mailto:beratung-rlp@solwodi.de' style=''>beratung-rlp@solwodi.de</a><object type='multipart/example' style='display: inline;'><noscript>beratung-rlp(at)solwodi.de</noscript></object></p><div class='tp-image-wrapper'><img src='https://daten.verwaltungsportal.de/dateien//mypage/8/1/9/5/5/6/hannah-busing-Zyx1bK9mqmA-unsplash_1_.jpg?v=1620400633' class='template-img' alt='we are coloful' title='we are coloful'></div>",
+                "href": "https://www.solwodi.de/seite/353250/mainz.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.230931521107204,
+                    49.993501119250354
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "properties": {
+                "title": "München",
+                "innerHTML": "<span style='color:#e67e22'><strong>Unterstützungsmöglichkeiten:</strong></span><p class='tiny_p' style='text-align:justify'><br>Unser Hilfsangebot ist sehr vielseitig. Es umfasst u.a. Krisenintervention, Beratungs- und Begleitungstätigkeit, psychosoziale Betreuung sowie Unterstützung bei der Rückkehr ins Herkunftsland.&nbsp;</p><p class='tiny_p' style='text-align:justify'><br>Gerne auch können wir jederzeit angefragt werden, Vorträge zu halten an Schulen, Hochschulen, in Pfarreien und sonstigen Einrichtungen der Erwachsenenbildung. Wir referieren vor allem zu den Themen „Frauenspezifische Fluchtgründe“ und „Menschenhandel und Zwangsprostitution“.</p>",
+                "href": "https://www.solwodi.de/seite/353251/m%C3%BCnchen.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.542500682997838,
+                    48.14695198135746
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "properties": {
+                "title": "Oberhausen",
+                "innerHTML": "<span style='color:#e67e22'><strong>SOLWODI Nordrhein-Westfalen - Fachberatungsstelle Oberhausen</strong></span><p class='tiny_p'>Wir helfen Ihnen, wenn Sie&nbsp;...</p><p class='tiny_p'>Fragen oder Probleme haben&nbsp;rund um:</p><p class='tiny_p'>Prostitution, Aufenthalt und Arbeit in Deutschland, Gesundheit, Ämter/Behörden, Hilfe brauchen, bei Ausweispapieren, Anträgen, Formularen, aus der Prostitution aussteigen wollen,&nbsp;einen sicheren Ort brauchen,&nbsp;mit einem Arzt sprechen möchten,&nbsp;Deutsch lernen wollen ...</p><p class='tiny_p'>anonym - vertraulich - kostenlos</p>",
+                "href": "https://www.solwodi.de/seite/353252/oberhausen.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.851534953683768,
+                    51.50040125459336
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "properties": {
+                "title": "Osnabrück",
+                "innerHTML": "<p class='tiny_p' style='text-align:justify'><span style='color:#e67e22'><strong>SOLWODI Niedersachsen - Fachberatungsstelle Osnabrück</strong></span></p><p class='tiny_p' style='text-align:justify'>Osnabrück unterhält seit 1999 eine Beratungsstelle und eine Schutzwohnung für 6 Frauen mit ihren Kindern. Vier Mitarbeiterinnen, davon drei Sozialarbeiterinnen arbeiten mit insgesamt 130 Wochenstunden bei SOLWODI Osnabrück. Zusätzlich absolvieren zwei bis drei Studentinnen pro Jahr der Fachhochschulen Osnabrück und Münster ihr Praktikum in der Beratungsstelle und der Schutzwohnung.</p>",
+                "href": "https://www.solwodi.de/seite/353253/osnabr%C3%BCck.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.04959221328923,
+                    52.277738413988516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "properties": {
+                "title": "Passau",
+                "innerHTML": "<span style='color:#e67e22'><strong>SOLWODI Bayern e.V. - Beratungsstelle Passau&nbsp;</strong></span><p class='tiny_p'>Postfach 2305, 94013 Passau</p><p class='tiny_p'>Tel: +49 (0)851 – 96 66 450</p><p class='tiny_p'>Fax: +49 (0)851 – 96 66 790</p><p class='tiny_p'>Email: <script>email('passau','solwodi','de','');</script><a href='mailto:passau@solwodi.de' style=''>passau@solwodi.de</a><object type='multipart/example' style='display: inline;'><noscript>passau(at)solwodi.de</noscript></object></p><p class='tiny_p'><strong><span style='color:#e67e22'>Sprachen: </span></strong>Deutsch, Englisch, Russisch, Rumänisch</p><p class='tiny_p'><strong><span style='color:#e67e22'>Streetwork:</span></strong> nein</p>",
+                "href": "https://www.solwodi.de/seite/353254/passau.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4275820136046,
+                    48.570070329702936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "properties": {
+                "title": "Regensburg",
+                "innerHTML": "<br><span style='color:#e67e22'><strong>Arbeitsschwerpunkte:</strong></span><ul><li>Opfer von Menschenhandel zum Zwecke der sexuellen Ausbeutung/ Arbeitsausbeutung</li><li>Gewalt im Namen der Ehre (Genitalverstümmelung, Zwangsheirat, Ehrverfolgung, Ehrenmord, Kontrolle durch die Familie/Verwandte, etc.)</li><li>Heiratsmigration</li></ul>",
+                "href": "https://www.solwodi.de/seite/353255/regensburg.html"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.10896291645226,
+                    49.01816195577947
+                ]
+            }
+        }
+    ]
+}

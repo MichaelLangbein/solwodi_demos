@@ -1090,34 +1090,55 @@
                                 <script src="https://d3js.org/d3.v7.min.js"></script>
                                 <style>
                                     .mapContainer {
-                                        margin: 5rem 0 5rem 0; /* Abstand nach oben und unten */
-                                        padding: 0 5rem 0 5rem;  /* links und rechts nach innen einrücken */
                                         display: flex;
                                         align-items: center;
-                                        justify-content: center; /* leaves space left and right */
+                                        justify-content: center;
                                         flex-direction: row;
                                         width: 100%;
                                         height: 50vh;
                                     }
+
                                     .map {
                                         width: 50%;
                                         height: 100%;
                                     }
-                                    .info {
+
+                                    .cards {
                                         width: 50%;
                                         height: 100%;
+                                        overflow: hidden;
                                     }
-
-                                   
+                                    .card {
+                                        margin: 1rem;
+                                        padding: 1rem;
+                                        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+                                        max-height: 95%;
+                                        display: flex;
+                                        flex-direction: column;
+                                        animation: cardExpand 500ms ease-in-out;
+                                    }
+                                    @keyframes cardExpand {
+                                        0%   { opacity: 0%; }
+                                        100% { opacity: 100%;}
+                                    }
+                                    .header {
+                                        font-weight: bold;
+                                    }
+                                    .content {
+                                        max-height: 70%;
+                                        overflow: hidden;
+                                    }
+                                    .moreInfo {
+                                        margin: .5rem 0 .5rem 0;
+                                    }
+                                    .moreInfoButton {
+                                        transition: none;
+                                    }
                                 </style>
 
                                 <div class="mapContainer" id="mapContainer">
                                     <div class="map" id="map"></div>
-                                    <div class="info" id="info">
-                                        <p>
-                                            Klicken Sie auf die Karte um mehr über eine bestimmte Fachberatungsstelle herauszufinden.
-                                        </p>
-                                    </div>
+                                    <div class="cards" id="cards"></div>
                                 </div>
 
                                 <script type="module" src="./src/index.ts"></script>

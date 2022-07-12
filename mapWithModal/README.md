@@ -18,3 +18,11 @@ Running: `npm run dev`
 - Karte: weil zugänglicher als lange Liste
   - Deswegen auch: keine Liste auf rechter Seite
   - Problem: whitespace um Karte herum
+- Rechts: Fbs-Info (Default: Berlin)
+
+
+
+# TODOs
+
+- Modal
+- Bubbles: lasse Text erscheinen
